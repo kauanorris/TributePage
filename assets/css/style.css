@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #373a3c;
+}
+
+.container {
+    height: 50px;
+    width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.challenge {
+    margin-right: 30px;
+}
+
+.challenge a { 
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul, 
+nav li {
+    margin: 0px;
+    list-style: none; 
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    padding: 15px;
+    text-decoration: none;
+    color: #9b9d9e;
+    text-transform: uppercase;
+}
+
+nav a:hover, nav a.active {
+    Color: white;
+}
+
+/* SEÇÕES OVERWATCH */
+#overwatch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #292929;
+    
+}
+
+.areaOver {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 80px;
+}
+
+.textOver h1 {
+    font-family: sans-serif;
+    font-size: 100px;
+    color: white;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+.subtextOver {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 22px;
+    margin-top: -22px;
+    margin-bottom: 60px;
+}
+
+.overLogo {
+    width: 200px;
+    height: 200px;
+    margin-right: -300px;
+    background-image: url('../imagens/500px-Overwatch_circle_logo.svg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* CLASSES ABOUT */
+.about-content {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+        "about-text-p1 about-img"
+        "about-text-p2 about-img"
+        "about-text-p3 about-img"
+}
+
+.about-text-p1 {
+    grid-area: about-text-p1;
+}
+
+
+.about-text-p2 {
+    grid-area: about-text-p2;
+}
+
+.about-text-p3 {
+    grid-area: about-text-p3;
+}
+
+.about-img {
+    grid-area: about-img;
+    max-height: auto;
+}
+
+.about-img img {
+    max-height: auto;
+}
+
+/* CLASSES HEROES */
+#heroes {
+    display: flex;
+    justify-content: center;
+}
+
+.areatext {
+    width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+.textHeroes {
+    font-size: 62px;
+}
+
+.textHeroes h1 {
+    margin-top: 50px;
+    font-weight: normal;
+}
+
+
+
