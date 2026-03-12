@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Blinker";
 }
 
 header {
@@ -71,6 +71,7 @@ nav a:hover, nav a.active {
     color: white;
     font-weight: normal;
     margin-bottom: 0px;
+    letter-spacing: 6px;
 }
 
 .subtextOver {
@@ -93,36 +94,31 @@ nav a:hover, nav a.active {
 }
 
 /* CLASSES ABOUT */
-.about-content {
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: 
-        "about-text-p1 about-img"
-        "about-text-p2 about-img"
-        "about-text-p3 about-img"
+
+.areawhat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
 }
 
-.about-text-p1 {
-    grid-area: about-text-p1;
+.areawhat h1 {
+    font-weight: normal;
+    font-size: 63px;
+    text-align: center;
+    margin-bottom: 0px; 
 }
 
-
-.about-text-p2 {
-    grid-area: about-text-p2;
+.areaParagraf{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 
-.about-text-p3 {
-    grid-area: about-text-p3;
-}
-
-.about-img {
-    grid-area: about-img;
-    max-height: auto;
-}
-
-.about-img img {
-    max-height: auto;
+.paragraf {
+    max-width: 1055px;
+    text-align: left;
 }
 
 /* CLASSES HEROES */
@@ -140,7 +136,7 @@ nav a:hover, nav a.active {
 }
 
 .textHeroes {
-    font-size: 62px;
+    font-size: 40px;
 }
 
 .textHeroes h1 {
