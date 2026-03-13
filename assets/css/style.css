@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "Blinker";
+    font-family: "Blinker",Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -140,8 +140,44 @@ nav a:hover, nav a.active {
     margin-top: 30px;
 }
 
-.card1{
-    width: 1000px;
-    height: 400px;
-    background-color: #373a3c;
+.card {
+    width: 300px;
+    height: 380px;
+    padding: 25px;
+   
+}
+
+.areaImg {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.areaImg img {
+    width: 77%;
+    position: absolute;
+    top: 0;
+}
+
+.card-title {
+    margin-top: -25px;
+    margin-bottom: -25px;
+}
+
+.card-title h3 {
+    font-size: 28px;
+    color: #373A3C;
+    font-weight: normal;
+}
+ 
+.card-subtitle {
+    margin-bottom: -15px;
+}
+
+.card-subtitle h6 {
+    font-size: 1rem;
+    color: #818A91;
+    font-weight: normal;
 }
