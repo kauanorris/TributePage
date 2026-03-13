@@ -98,7 +98,7 @@ nav a:hover, nav a.active {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 .areawhat h1 {
@@ -125,6 +125,7 @@ nav a:hover, nav a.active {
     display: flex;
     justify-content: center;
     font-size: 50px;
+    margin-bottom: -50px;
 }
 
 .textHeroes h1 {
@@ -134,17 +135,16 @@ nav a:hover, nav a.active {
 
 .cardHeroes {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
-    margin-top: 30px;
+    justify-content: center; 
+    gap: 50px;
+    max-width: 1000px; 
+    margin: 0 auto;   
 }
 
 .card {
-    width: 300px;
-    height: 380px;
-    padding: 25px;
-   
+    width: calc(33.33% - 20px);
+    max-width: 300px;
 }
 
 .areaImg {
@@ -180,4 +180,76 @@ nav a:hover, nav a.active {
     font-size: 1rem;
     color: #818A91;
     font-weight: normal;
+}
+
+/* CLASSES Game Modes */    
+.textGame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.textGame h1 {
+    font-weight: normal;
+    font-size: 67px;
+    text-align: center;
+    margin-bottom: 0px; 
+}
+
+.border {
+    width: 1010px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.cardGame {
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.cardd {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+}
+
+.areaaImg img {
+    width: 200px;
+    border-radius: 8px;
+}
+
+.card-block h3 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.card-block p {
+    margin-top: 5px;
+    color: #555;
+}
+
+/* CLASSES Footer */  
+.areaFooter {
+    background-color: #373a3c;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0 20px 0;
+}
+
+.bottom-footer small{
+    font-size: 1rem;
+    word-spacing: 2px;
+}
+
+.bottom-footer small a {
+    color: #0275d8;
+    text-decoration: none;
+    font-size: 1rem;
 }
